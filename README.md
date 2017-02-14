@@ -1,2 +1,2 @@
-# test
-ithu summa create pana sonaganu create pani irukan ithellam open panathinga!!!
+# Survey
+An Android Application to conduct various types of surveys.

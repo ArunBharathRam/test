@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/icons"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar">
+
+
+        </include>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="Database Management System"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_title_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="left"
+            android:text="Project Done by :"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_title_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="left"
+            android:text="Arun : CSE13108"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_subhead_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="left"
+            android:text="Johail : CSE13124"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_subhead_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="left"
+            android:text="Prathab : CSE13140"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_subhead_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="left"
+            android:text="Sanjay : CSE13152"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_subhead_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="left"
+            android:text="Selva : CSE13153"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_subhead_material">
+
+
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

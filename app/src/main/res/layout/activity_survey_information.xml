@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/icons"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:id="@+id/survey_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="Survey Title"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/abc_text_size_title_material">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/survey_organization_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="by Organization Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_subhead_material">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/survey_instructions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="Survey Instructions"
+            android:textColor="@color/colorAccent">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/survey_already_taken"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="You Have Already taken this survey"
+            android:textColor="@color/colorAccent"
+            android:visibility="invisible">
+
+
+        </TextView>
+
+        <Button
+            android:id="@+id/take_survey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="Take Survey"
+            android:textAllCaps="false"
+            android:textColor="@color/icons" />
+    </LinearLayout>
+</ScrollView>
