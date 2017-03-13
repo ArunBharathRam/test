@@ -10,23 +10,23 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class About extends AppCompatActivity {
-    Toolbar toolbar;
+public class about1 extends AppCompatActivity {
+    //Toolbar toolbar;
     private Button button1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
-        setToolbar();
+        setContentView(R.layout.about1);
+        //setToolbar();
         button1 = (Button) findViewById(R.id.b1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {startActivity(new Intent(About.this, Login.class));
+            public void onClick(View v) {startActivity(new Intent(about1.this, Login.class));
                 finish();}});
     }
 
-    private void setToolbar() {
+    /* private void setToolbar() {
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -53,9 +53,9 @@ public class About extends AppCompatActivity {
         }
     }
 
-    @Override
+   @Override
     public void onBackPressed() {
-        super.onBackPressed();
+       super.onBackPressed();
         finish();
-    }
+    }*/
 }

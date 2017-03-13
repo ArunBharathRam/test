@@ -10,12 +10,6 @@
         android:orientation="vertical"
         android:weightSum="1">
 
-        <include
-            android:id="@+id/app_bar"
-            layout="@layout/app_bar">
-
-
-        </include>
 
         <TextView
             android:layout_width="fill_parent"
@@ -28,19 +22,12 @@
             android:text="FeedBack App" />
 
         <TextView
-            android:text="        It is a FeedBack application developed to give feedback about faculty and students."
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:id="@+id/textView"
-            android:layout_weight="0.23" />
-
-        <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/activity_horizontal_margin"
             android:gravity="left"
-            android:text="Done by :"
+            android:text="Project Done by :"
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/abc_text_size_title_material" />
 
@@ -73,6 +60,18 @@
 
 
         </TextView>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@color/colorAccent"
+            android:maxWidth="320dp"
+            android:padding="10dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/icons" />
 
     </LinearLayout>
 </ScrollView>

@@ -1,2 +1,2 @@
-# Feedback
-An Android Application to give feedback to faculty
+# Survey
+An Android Application to conduct various types of surveys.
